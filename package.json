@@ -1,0 +1,14 @@
+{
+  "name": "dfkreports-subgraph",
+  "license": "UNLICENSED",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "create-harmony": "graph create --node http://localhost:8020 harmony/blocks",
+    "deploy-harmony": "graph deploy --node http://localhost:8020 --ipfs http://localhost:5001 harmony/blocks"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "^0.17.1",
+    "@graphprotocol/graph-ts": "0.17.0"
+  }
+}
