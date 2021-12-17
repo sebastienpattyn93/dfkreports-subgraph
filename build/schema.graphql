@@ -1,0 +1,6 @@
+type Auction @entity {
+  id: ID!
+  winner: String
+  hero: BigInt
+  price: BigInt
+}

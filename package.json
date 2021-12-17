@@ -4,11 +4,13 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "create-harmony": "graph create --node http://localhost:8020 harmony/blocks",
-    "deploy-harmony": "graph deploy --node http://localhost:8020 --ipfs http://localhost:5001 harmony/blocks"
+    "create-harmony": "graph create --node http://localhost:8020 dfk/report",
+    "deploy-harmony": "graph deploy --node http://localhost:8020 --ipfs http://localhost:5001 dfk/report"
   },
   "dependencies": {
-    "@graphprotocol/graph-cli": "^0.17.1",
-    "@graphprotocol/graph-ts": "0.17.0"
+    "@graphprotocol/graph-ts": "^0.24.1"
+  },
+  "devDependencies": {
+    "@graphprotocol/graph-cli": "^0.25.1"
   }
 }
